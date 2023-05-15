@@ -38,6 +38,19 @@ body {
 	color: #000
 }
 
+.top-header .nav li {
+	padding-inline: 0;
+}
+
+.navbar-a {
+	padding: 10px;
+}
+
+.navbar-a:hover {
+	background-color: #BEB45A;
+    border-radius: 0.25rem;
+}
+
 .social-link img {
 	width: 20px;
 }
@@ -91,7 +104,7 @@ body {
 }
 
 #gallery {
-	/*	min-height: 100vh; */
+	min-height: 100vh;
 }
 .title{
 	text-align: center;
@@ -105,9 +118,20 @@ body {
 	background-color: #BEB45A;
 	border-radius:0 ;
 }
+
+/*ajout*/
+.nav-link.active-tag {
+	background-color: #BEB45A;
+}
+
+.nav-item:hover {
+	cursor: pointer;
+}
+/*Fin ajout*/
 .nav-pills .nav-link {
 	color: #000
 }
+
 .item-column {
 	position: relative;
 	margin-bottom: 0 !important;
@@ -243,6 +267,7 @@ input[type="submit"] {
 	background-color: #BEB45A;
 	padding: .5em 1em
 }
+
 
 @media all and (max-width: 1180px) {
 	.picture {
