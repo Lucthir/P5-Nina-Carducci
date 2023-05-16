@@ -47,7 +47,7 @@ body {
 }
 
 .navbar-a:hover {
-	background-color: #BEB45A;
+	background-color: #BEB45A; /*Ajout*/
     border-radius: 0.25rem;
 }
 
@@ -114,7 +114,7 @@ body {
 	justify-content: center;
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-	color: #fff;
+	/*color: #fff;*/ /*Modif for filter Tous*/
 	background-color: #BEB45A;
 	border-radius:0 ;
 }
@@ -127,6 +127,7 @@ body {
 .nav-item:hover {
 	cursor: pointer;
 }
+
 /*Fin ajout*/
 .nav-pills .nav-link {
 	color: #000
