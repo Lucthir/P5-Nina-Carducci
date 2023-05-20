@@ -271,6 +271,20 @@ input[type="submit"] {
 	padding: .5em 1em
 }
 
+#render-block-carousel-1{
+	width:100%;
+	height:auto;
+}
+
+#render-block-nina{
+	width:100%;
+	height:auto;
+}
+
+#render-block-camera{
+	width:100%;
+	height:auto;
+}
 
 @media all and (max-width: 1180px) {
 	.picture {
